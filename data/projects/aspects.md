@@ -11,7 +11,7 @@ annotated with aspects.
 
 ##### GSOC 2017 CODING STARTS
 
-* The names and settings of the needed aspects are drafted completely.
+* The names and TEST settings of the needed aspects are drafted completely.
 
 ##### GSOC 2017 MIDTERM
 
