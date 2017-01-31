@@ -1,18 +1,18 @@
 faq = {
 
-"I want to do a GSoC!" : "i_want_to_do_a_gsoc.md",
+"How to get in touch, familiarize with the project, and discuss possible activities?" : "get_in_touch.md",
 
-"What are the requirements to be accepted for GSoC?" : "gsoc_requirements.md",
+"How can I search the mailing list to avoiding posting questions that were already answered?" : "search_list.md",
 
 "I have an own project idea! (Mentors and students!)" : "own_project_idea.md",
 
-"How do I work out a great proposal?" : "writing_a_great_proposal.md",
+"Where to find information about the project?" : "find_info.md",
 
-"I found a great project! How can I contact my mentor?" : "contact_mentor.md",
+"Where to find information about Google Summer of Code?" : "find_info_gsoc.md",
 
-"When should I start working out the proposal?" : "working_out_the_proposal.md",
+"What NOT to ask for?" : "not_to_ask.md",
 
-"What are my obligations as a student during the GSoC?" : "student_obligations.md",
+"What are prospective applicants supposed to do?" : "applicants_todo.md",
 
-"What are my obligations as a mentor during the GSoC?" : "mentor_obligations.md"
+"What is this year's entry test?" : "entry_test.md"
 }

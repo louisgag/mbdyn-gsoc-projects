@@ -1,0 +1,1 @@
+On most search engines you can add the string **site:http://lists.mbdyn.org/pipermail/mbdyn-users/** before your search query to limit your search to the mailing list archive and quickly verify if the questions you have were already answered in the past.

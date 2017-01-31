@@ -1,46 +1,42 @@
 projects = [
 	{
-		"name" : "Improve Diff Handling",
-		"desc" : "Bears should be able to offer more than just one possible \
-		 patch for an issue.",
+		"name" : "Improve Blendyn",
+		"desc" : "Upgrade the standalone post-processing graphical interface Blendyn",
 		"requirements" : [
-			"The proposal has to contain a clear concept.",
-			"The applicant should have one patch accepted to the coala core."
+			"Entry test for Blendyn must be completed",
 		],
-		"difficulty" : "low",
+		"difficulty" : "easy",
 		"issues" : [
-			"https://github.com/coala/coala/issues/1021"
+			"https://github.com/zanoni-mbdyn/blendyn/issues"
 		],
 		"mentors" : [
-			"sils",
-			"jayvdb"
+			"zanoni-mbdyn",
+			"louisgag"
 		],
-		"initiatives" : ["GSoC", "RGSoC"],
-		"tags" : ["Core", "CLI"],
-		"markdown": "improve_diff_handling.md",
-		"collaborating_projects" : ["coala"]
+		"initiatives" : ["GSoC"],
+		"tags" : ["Python", "Blender"],
+		"markdown": "improve_blendyn.md",
+		"collaborating_projects" : ["MBDyn"]
 	},
 	{
-		"name" : "Create Jenkins Plugin",
-		"desc" : "Jenkins users should be able to see coala results right in the \
-		Jenkins UI.",
+		"name" : "Ground vehicle model development",
+		"desc" : "Improve the existing ground vehile functionalities of MBDyn",
 		"requirements" : [
-			"Any patch to jenkins has been accepted.",
-			"The applicant is familiar with the coala plugins.",
-			"Any patch to any coala plugin has been accepted and merged."
+			"Entry test for MBDyn must have been completed.",
+			"The applicant as sucessfully run the semitrailer model.",
 		],
-		"difficulty" : "low",
+		"difficulty" : "medium",
 		"issues" : [
-			"https://github.com/coala/coala/issues/2757"
+			"na"
 		],
 		"mentors" : [
-			"Udayan12167",
-			"uhafner"
+			"louisgag",
+			"zanoni-mbdyn"
 		],
-		"initiatives" : ["GSoC", "RGSoC"],
-		"tags" : ["Plugins", "CI"],
-		"markdown": "create_jenkins_plugin.md",
-		"collaborating_projects" : ["coala", "jenkins"]
+		"initiatives" : ["GSoC"],
+		"tags" : ["c++", "modules"],
+		"markdown": "improve_vehicle.md",
+		"collaborating_projects" : ["MBDyn"]
 	}
 
 ]

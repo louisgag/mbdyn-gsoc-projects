@@ -1,0 +1,1 @@
+Check the [website](https://www.mbdyn.org/), with specific reference to "Documentation", "Software Download", and search/browse the archives of the mailing list [mbdyn-users@mbdyn.org](http://lists.mbdyn.org/pipermail/mbdyn-users/), as many common questions have already been answered there.
