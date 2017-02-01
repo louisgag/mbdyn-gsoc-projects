@@ -34,7 +34,7 @@ projects = [
 			"zanoni-mbdyn"
 		],
 		"areas" : ["Modeling Capabilities"],
-		"tags" : ["c++", "modules", "vehicle mechanics"],
+		"tags" : ["c++", "modules", "MBDyn scripting", "vehicle mechanics"],
 		"markdown": "improve_vehicle.md",
 		"collaborating_projects" : [""]
 	},
@@ -54,8 +54,67 @@ projects = [
 			"zanoni-mbdyn"
 		],
 		"areas" : ["Modeling Capabilities"],
-		"tags" : ["tires", "c++", "modules"],
+		"tags" : ["tires", "c++", "modules", "vehicle mechanics"],
 		"markdown": "improve_wheel4.md",
+		"collaborating_projects" : [""]
+	},
+	{
+		"name" : "Flight dynamics module",
+		"desc" : "Develop a flight simulator that uses MBDyn to create a realistic flight experience",
+		"requirements" : [
+			"Entry test for MBDyn must have been completed.",
+			"The applicant as sucessfully ran a aircraft/helicopter MBDyn model.",
+		],
+		"difficulty" : "medium/difficult",
+		"issues" : [
+			"na"
+		],
+		"mentors" : [
+			"ando",
+			"zanoni-mbdyn"
+		],
+		"areas" : ["Inter-Process Communication / Real-Time Simulation (IPC / RT)"],
+		"tags" : ["flight simulator", "c++", "GUI"],
+		"markdown": "flight_dyn.md",
+		"collaborating_projects" : [""]
+	},
+	{
+		"name" : "Improve coupling with other software",
+		"desc" : "Implement or perfect the existing hooks to Matlab, Octave, Simulink, Scilab, and OpenFOAM",
+		"requirements" : [
+			"Entry test for MBDyn must have been completed.",
+			"The applicant as sucessfully ran a coupled MBDyn model.",
+		],
+		"difficulty" : "medium/difficult",
+		"issues" : [
+			"na"
+		],
+		"mentors" : [
+			"ando",
+			"quaranta_giuseppe"
+		],
+		"areas" : ["Inter-Process Communication / Real-Time Simulation (IPC / RT)"],
+		"tags" : ["c++", "Matlab", "Octave", "Scilab", "OpenFOAM", "Python"],
+		"markdown": "coupling.md",
+		"collaborating_projects" : [""]
+	},
+	{
+		"name" : "Automatic differentiation",
+		"desc" : "Improve the current automatic differentiation algorithms of MBDyn",
+		"requirements" : [
+			"Entry test for MBDyn must have been completed.",
+			"The applicant as sucessfully ran a MBDyn model with automatic differentiation.",
+		],
+		"difficulty" : "easy/medium",
+		"issues" : [
+			"na"
+		],
+		"mentors" : [
+			"marco_morandini"
+		],
+		"areas" : ["Miscellaneous"],
+		"tags" : ["c++"],
+		"markdown": "autodiff.md",
 		"collaborating_projects" : [""]
 	}
 

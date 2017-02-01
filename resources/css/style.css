@@ -111,6 +111,11 @@ span.caret {
   font-family: Roboto;
   padding: 1em;
 }
+img.header-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .ft-span{
  text-transform: uppercase;
  letter-spacing: 0.1em;
