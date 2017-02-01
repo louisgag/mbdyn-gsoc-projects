@@ -26,12 +26,12 @@
           </div>
 
 
-        <div ng-show="project.initiatives.length>0" class="project-overview-element clickable card-action">
-          <span ng-click="search(initiative)" class="pr-element-detail chip" ng-repeat="initiative in project.initiatives">{{ initiative }}</span><br>
+        <div ng-show="project.areas.length>0" class="project-overview-element clickable card-action">
+          <span ng-click="search(area)" class="pr-element-detail chip" ng-repeat="area in project.areas">{{ area }}</span><br>
         </div>
 
-         <div ng-show="project.collaborating_projects.length>0" class="project-overview-element clickable card-action">
-          <span ng-click="search(project)" class="pr-element-detail chip" ng-repeat="project in project.collaborating_projects">{{ project }}</span><br>
+         <div ng-show="project.tags.length>0" class="project-overview-element clickable card-action">
+          <span ng-click="search(project)" class="pr-element-detail chip" ng-repeat="project in project.tags">{{ project }}</span><br>
         </div>
 
         </div>
@@ -53,15 +53,11 @@
           <br>
         </div>
 
-        <div ng-show="currentProject.initiatives.length>0" class="project-detail-element">
-          <div class="small-heading">Initiatives</div>
-          <span class="pr-element-detail chip" ng-repeat="initiative in currentProject.initiatives">{{ initiative }}</span><br>
+        <div ng-show="currentProject.areas.length>0" class="project-detail-element">
+          <div class="small-heading">Areas</div>
+          <span class="pr-element-detail chip" ng-repeat="area in currentProject.areas">{{ area }}</span><br>
         </div>
 
-        <div ng-show="currentProject.collaborating_projects.length>0" class="project-detail-element">
-          <div class="small-heading">Collaborating Projects</div>
-          <span class="pr-element-detail chip" ng-repeat="project in currentProject.collaborating_projects">{{ project }}</span><br>
-        </div>
 
         <div ng-show="currentProject.tags.length>0" class="project-detail-element">
           <div class="small-heading">Tags</div>

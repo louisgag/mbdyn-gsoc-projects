@@ -13,10 +13,10 @@ projects = [
 			"zanoni-mbdyn",
 			"louisgag"
 		],
-		"initiatives" : ["GSoC"],
+		"areas" : ["User Interface Components"],
 		"tags" : ["Python", "Blender"],
 		"markdown": "improve_blendyn.md",
-		"collaborating_projects" : ["MBDyn"]
+		"collaborating_projects" : [""]
 	},
 	{
 		"name" : "Ground vehicle model development",
@@ -33,10 +33,30 @@ projects = [
 			"louisgag",
 			"zanoni-mbdyn"
 		],
-		"initiatives" : ["GSoC"],
-		"tags" : ["c++", "modules"],
+		"areas" : ["Modeling Capabilities"],
+		"tags" : ["c++", "modules", "vehicle mechanics"],
 		"markdown": "improve_vehicle.md",
-		"collaborating_projects" : ["MBDyn"]
+		"collaborating_projects" : [""]
+	},
+	{
+		"name" : "Wheel4 (tire model) module improvements",
+		"desc" : "Improve the existing SWIFT tire functionalities of MBDyn",
+		"requirements" : [
+			"Entry test for MBDyn must have been completed.",
+			"The applicant as sucessfully run the wheel4 model.",
+		],
+		"difficulty" : "difficult",
+		"issues" : [
+			"na"
+		],
+		"mentors" : [
+			"louisgag",
+			"zanoni-mbdyn"
+		],
+		"areas" : ["Modeling Capabilities"],
+		"tags" : ["tires", "c++", "modules"],
+		"markdown": "improve_wheel4.md",
+		"collaborating_projects" : [""]
 	}
 
 ]
