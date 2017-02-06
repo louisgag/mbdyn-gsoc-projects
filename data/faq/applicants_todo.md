@@ -6,4 +6,4 @@ They are supposed to:
 
 - familiarize with software usage by running simple problems (e.g. initial value problems described in the tutorials and in the examples page)
 
-- complete this year’s entry test (see below)
+- complete this year’s entry test (see first FAQ entry)
