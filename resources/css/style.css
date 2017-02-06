@@ -335,7 +335,7 @@ a:hover > .card{
 .small-heading-dark{
   font-size: 12px;
   letter-spacing: 0.1em;
-  text-align: center;
+  text-align: left;
   color: black;
   font-weight: 500;
   opacity: 1.0;

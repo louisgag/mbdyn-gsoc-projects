@@ -19,16 +19,24 @@
             <div btf-markdown="project.desc" class="card-content markdown"></div>
           </div>  
 
-        <div ng-show="project.areas.length>0" class="project-overview-element clickable card-action">
+        <div ng-show="project.category" class="project-overview-element clickable card-action">
         <div class="small-heading-dark uppercase">Category</div>
-          <span ng-click="search(area)" class="pr-element-detail chip" ng-repeat="area in project.areas">{{ area }}</span><br>
+          <span ng-click="search(project.category)" class="pr-element-detail chip">{{ project.category }}</span><br>
         </div>
         
          <div ng-show="project.tags.length>0" class="project-overview-element clickable card-action">
          <div class="small-heading-dark uppercase">Tags</div>
-          <span ng-click="search(project)" class="pr-element-detail chip" ng-repeat="project in project.tags">{{ project }}</span><br>
+          <span ng-click="search(tags)" class="pr-element-detail chip" ng-repeat="tag in project.tags">{{ tag }}</span><br>
+        </div>
+                
+         <div ng-show="project.priority>" class="project-overview-element clickable card-action">
+         <div class="small-heading-dark uppercase">Priority and Difficulty</div>
+          <span ng-click="search(project.priority)" class="pr-element-detail chip">{{project.priority}}</span>
+          <span ng-click="search(project.difficulty)" class="pr-element-detail chip">{{project.difficulty}}</span><br>
         </div>
 
+          
+        
 
         </div>
       </div>
@@ -43,9 +51,9 @@
         </div>
 
 
-        <div ng-show="currentProject.areas.length>0" class="project-detail-element">
+        <div ng-show="currentProject.category" class="project-detail-element">
           <div class="small-heading uppercase">Category</div>
-          <span class="pr-element-detail chip" ng-repeat="area in currentProject.areas">{{ area }}</span><br>
+          <span class="pr-element-detail chip">{{ currentProject.category }}</span><br>
         </div>
 
         <div ng-show="currentProject.tags.length>0" class="project-detail-element">
