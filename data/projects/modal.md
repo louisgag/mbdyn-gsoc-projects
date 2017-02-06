@@ -1,0 +1,13 @@
+- break down the modal joint element into a set of elements/components:
+    - modal database: FEM model; split const ( = instantiated once) and local (= duplicated) data;
+    - place const data in shared database, local data in modal joint; avoid unnecessary copy of memory;
+    - use standard containers for structured data
+    - for example,
+        - \+ Mat3xN *pOffsetFEMNodes --> std::vector<Vec3> (same as d1rig?)
+        - \+ Mat3xN *pOffsetMBNodes --> std::vector<Vec3> (same as d2?)
+        - \+ Mat3xN *pRotMBNodes --> std::vector<Mat3x3> (not used???)
+    - define a modal dynamics as a "deformable body" element (the structural dynamics part of the existing element)
+    - define a modal clamp constraint element (as it is now, but separate from dynamics element)
+    - add a total modal joint (Was: specialized modal constraints, as opposed to clamping a node with the clamp constraint plus a regular joint) this makes it possible to add arbitrary elements connected to the modal element
+    - add support for “reference” definition based on modal database geometry
+    - implement/fix support for modal joint in initial assembly

@@ -1,0 +1,1 @@
+- Add flexible superelement ("modal" joint) support to [Blendyn](https://github.com/zanoni-mbdyn/blendyn/wiki)
