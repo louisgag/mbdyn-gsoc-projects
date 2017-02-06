@@ -1,0 +1,4 @@
+- flag different equations and variables according to their physical dimensions
+- compute different residual norms for different physical domains
+- for each physical domain, compute a reference comparison value for the convergence check
+- develop and test the new convergence test

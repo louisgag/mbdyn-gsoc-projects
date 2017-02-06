@@ -75,6 +75,19 @@ projects = [
 		"tags" : ["c++"],
                 "priority" : "Low",
 		"markdown": "autodiff.md",
+	},
+	{
+		"name" : "Convergence Criteria",
+		"desc" : "Improve the existing convergence criteria",
+		"difficulty" : "medium",
+		"mentors" : [
+			"Marco Morandini",
+                        "Pierangelo Masarati"
+		],
+		"areas" : ["Miscellaneous"],
+		"tags" : ["c++"],
+                "priority" : "High",
+		"markdown": "convergeance.md",
 	}
 
 ]
