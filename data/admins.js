@@ -1,1 +1,1 @@
-admins = ["louisgag", "ando"]
+admins = ["Louis Gagnon", "Pierangelo Masarati"]

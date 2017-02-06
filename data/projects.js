@@ -2,120 +2,79 @@ projects = [
 	{
 		"name" : "Improve Blendyn",
 		"desc" : "Upgrade the standalone post-processing graphical interface Blendyn",
-		"requirements" : [
-			"Entry test for Blendyn must be completed",
-		],
 		"difficulty" : "easy",
-		"issues" : [
-			"https://github.com/zanoni-mbdyn/blendyn/issues"
-		],
 		"mentors" : [
-			"zanoni-mbdyn",
-			"louisgag"
+			"Andrea Zanoni",
+			"Louis Gagnon"
 		],
 		"areas" : ["User Interface Components"],
 		"tags" : ["Python", "Blender"],
-		"markdown": "improve_blendyn.md",
-		"collaborating_projects" : [""]
+                "priority" : "Medium-High",
+		"markdown": "improve_blendyn.md"
 	},
 	{
 		"name" : "Ground vehicle model development",
 		"desc" : "Improve the existing ground vehile functionalities of MBDyn",
-		"requirements" : [
-			"Entry test for MBDyn must have been completed.",
-			"The applicant as sucessfully run the semitrailer model.",
-		],
 		"difficulty" : "medium",
-		"issues" : [
-			"na"
-		],
 		"mentors" : [
-			"louisgag",
-			"zanoni-mbdyn"
+			"Louis Gagnon",
+			"Andrea Zanoni"
 		],
 		"areas" : ["Modeling Capabilities"],
 		"tags" : ["c++", "modules", "MBDyn scripting", "vehicle mechanics"],
-		"markdown": "improve_vehicle.md",
-		"collaborating_projects" : [""]
+                "priority" : "Low-Medium",
+		"markdown": "improve_vehicle.md"
 	},
 	{
 		"name" : "Wheel4 (tire model) module improvements",
 		"desc" : "Improve the existing SWIFT tire functionalities of MBDyn",
-		"requirements" : [
-			"Entry test for MBDyn must have been completed.",
-			"The applicant as sucessfully run the wheel4 model.",
-		],
 		"difficulty" : "difficult",
-		"issues" : [
-			"na"
-		],
 		"mentors" : [
-			"louisgag",
-			"zanoni-mbdyn"
+			"Louis Gagnon",
+			"Andrea Zanoni"
 		],
 		"areas" : ["Modeling Capabilities"],
 		"tags" : ["tires", "c++", "modules", "vehicle mechanics"],
-		"markdown": "improve_wheel4.md",
-		"collaborating_projects" : [""]
+                "priority" : "Low",
+		"markdown": "improve_wheel4.md"
 	},
 	{
 		"name" : "Flight dynamics module",
 		"desc" : "Develop a flight simulator that uses MBDyn to create a realistic flight experience",
-		"requirements" : [
-			"Entry test for MBDyn must have been completed.",
-			"The applicant as sucessfully ran a aircraft/helicopter MBDyn model.",
-		],
 		"difficulty" : "medium/difficult",
-		"issues" : [
-			"na"
-		],
 		"mentors" : [
-			"ando",
-			"zanoni-mbdyn"
+			"Pierangelo Masarati",
+			"Andrea Zanoni"
 		],
-		"areas" : ["Inter-Process Communication / Real-Time Simulation (IPC / RT)"],
+		"areas" : ["IPC / RT"],
 		"tags" : ["flight simulator", "c++", "GUI"],
-		"markdown": "flight_dyn.md",
-		"collaborating_projects" : [""]
+                "priority" : "High",
+		"markdown": "flight_dyn.md"
 	},
 	{
 		"name" : "Improve coupling with other software",
 		"desc" : "Implement or perfect the existing hooks to Matlab, Octave, Simulink, Scilab, and OpenFOAM",
-		"requirements" : [
-			"Entry test for MBDyn must have been completed.",
-			"The applicant as sucessfully ran a coupled MBDyn model.",
-		],
 		"difficulty" : "medium/difficult",
-		"issues" : [
-			"na"
-		],
 		"mentors" : [
-			"ando",
-			"quaranta_giuseppe"
+			"Pierangelo Masarati",
+			"Giuseppe Quaranta"
 		],
-		"areas" : ["Inter-Process Communication / Real-Time Simulation (IPC / RT)"],
+		"areas" : ["IPC / RT"],
 		"tags" : ["c++", "Matlab", "Octave", "Scilab", "OpenFOAM", "Python"],
-		"markdown": "coupling.md",
-		"collaborating_projects" : [""]
+                "priority" : "Medium",
+		"markdown": "coupling.md"
 	},
 	{
 		"name" : "Automatic differentiation",
 		"desc" : "Improve the current automatic differentiation algorithms of MBDyn",
-		"requirements" : [
-			"Entry test for MBDyn must have been completed.",
-			"The applicant as sucessfully ran a MBDyn model with automatic differentiation.",
-		],
 		"difficulty" : "easy/medium",
-		"issues" : [
-			"na"
-		],
 		"mentors" : [
-			"marco_morandini"
+			"Unavailable"
 		],
 		"areas" : ["Miscellaneous"],
 		"tags" : ["c++"],
+                "priority" : "Low",
 		"markdown": "autodiff.md",
-		"collaborating_projects" : [""]
 	}
 
 ]

@@ -214,6 +214,7 @@ footer.page-footer .footer-copyright{
 }
 .name-bear{
   font-size: 22px !important;
+  font-weight: 800 !important;
 }
 .markdown  p {
   display: block !important;
@@ -331,7 +332,14 @@ a:hover > .card{
   font-weight: 500;
   opacity: 0.2;
 }
-
+.small-heading-dark{
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+  opacity: 1.0;
+}
 .person-contributions{
   margin-top: 2em;
   text-align: center;
