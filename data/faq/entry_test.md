@@ -47,4 +47,4 @@ If you do not complete step 1 or, when applicable, the alternative entry test of
 
 ####Step 4
 
-- Fix an issues from the [TODO](https://www.mbdyn.org/?Developers_corner___TODO_list).
+- Fix an issue from the [TODO](https://www.mbdyn.org/?Developers_corner___TODO_list).
