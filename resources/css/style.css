@@ -58,7 +58,6 @@
 .tabs{
   font-family: Roboto;
   font-size: 1em;
-  text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 .description{
@@ -117,7 +116,6 @@ img.header-logo {
   margin-right: auto;
 }
 .ft-span{
- text-transform: uppercase;
  letter-spacing: 0.1em;
 }
 .container-title{
@@ -282,8 +280,6 @@ a:hover > .card{
   font-weight: 400;
   color: lightgoldenrodyellow;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
-
 }
 .authors{
   font-size: 14px;
@@ -441,12 +437,6 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
     margin-right: 0.5em;
   }
 }
-.explore{
-  text-transform: uppercase;
-}
-.tabs .tab{
-  text-transform: uppercase;
-}
 .markdown-reqs p{
   display: initial !important;
 }
@@ -501,4 +491,13 @@ ul:not(.browser-default) li {
 }
 .arrow-click:hover{
   color: lightblue !important;
+}
+.capitalize{
+  text-transform: capitalize;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.lowercase{
+  text-transform: lowercase;
 }
