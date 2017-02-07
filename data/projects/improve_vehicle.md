@@ -3,3 +3,4 @@ A [semi-trailer truck](https://www.mbdyn.org/userfiles/documents/examples/semitr
 - take the scripting tricks and joints used in the truck model and incorporate them directly into the MBDyn code
 - improve the MBDyn output to include car, truck, and general ground vehicle data
 - implement a set of general procedures to carry-on with a vehicle model (ie: SAE testing procedures for fuel consumption, stability, and maneuverability)
+- develop an output element anologous to the **aircraft instruments** element, that exposes relevant measures to potential vehicle control systems (e.g. vehicle sideslip angle, wheel angular velocities, tyre slips, yaw angular acceleration, etc.)
