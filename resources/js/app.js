@@ -8,8 +8,8 @@
 				template: '<projects></projects>',
 				reloadOnSearch: false
 			}).
-			when('/mentors', {
-				template: '<mentors></mentors>'
+			when('/entry_test', {
+				template: '<entry></entry_test>'
 			}).
 			when('/faq', {
 				template: '<faq></faq>'
@@ -148,44 +148,20 @@
 			controllerAs: 'toc'
 		}
 	}]);
-
-	app.filter('format_issue', function () {
-		return function (value) {
-			if (!value) return '';
-			res = value.split('/')
-			res = res[3] + '/' + res[4] + '#' + res[6]
-			return res;
-		};
-	});
+        
+        app.directive('entry',[ '$http', function ($http) {
+		return {
+			restrict: 'E',
+			templateUrl: 'partials/tabs/entry_test.html'
+		}
+	}]);
 
 	app.directive('mentors', ['$http', function ($http) {
 		return {
 			restrict: 'E',
-			templateUrl: 'partials/tabs/mentors.html',
-			controller: function ($scope) {
-				self = this
-				self.mentorsList = {}
-				self.adminsList = {}
-				angular.forEach(projects, function(value, key){
-					angular.forEach(value.mentors, function(value, key){
-						self.mentorsList[value] =  {
-							"github_handle" : value,
-							"github_avatar_url": "https://avatars.githubusercontent.com/" +value
-						}
-
-					});
-				});
-
-				angular.forEach(admins, function(value, key){
-					self.adminsList[value] = {
-						"github_handle" : value,
-						"github_avatar_url": "https://avatars.githubusercontent.com/" +value
-
-					}
-				});
-			},
-			controllerAs: "gic"
+			templateUrl: 'partials/tabs/entry_test.html'
 		}
 	}]);
+
 
 })();

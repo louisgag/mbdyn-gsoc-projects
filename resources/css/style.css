@@ -428,6 +428,9 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 .markdown li{
   list-style-type: disc !important;
 }
+.markdown-entry li{
+  list-style-type: disc !important;
+}
 .modal{
   top: 5% !important;
 }

@@ -1,11 +1,9 @@
 faq = {
-"What is this year's entry test?" : "entry_test.md",
+"What is this year's entry test?" : "entry_test_faq.md",
 
 "How to get in touch, familiarize with the project, and discuss possible activities?" : "get_in_touch.md",
 
 "How can I search the mailing list to avoiding posting questions that were already answered?" : "search_list.md",
-
-"I have an own project idea! (Mentors and students!)" : "own_project_idea.md",
 
 "Where to find information about the project?" : "find_info.md",
 
