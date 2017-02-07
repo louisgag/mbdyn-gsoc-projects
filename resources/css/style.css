@@ -230,26 +230,27 @@ a:hover > .card{
   border-radius: 0px !important;
 }
 .profile{
-  background-color: #000;
-  color: #fff;
+  background-color: #BDBDBF;
+  border-right: thick double #000;
 }
 .dashboard{
-  background-color: darkslategrey;
+  background-color: #F8F8FF;
 }
 .modal-content-bear{
   display: flex
 }
 .project-name{
   font-size: 2em;
+  color: #BF0000;
   text-align: center;
   padding-right: 1em;
   padding-top: 1em;
   padding-bottom: 0.1em;
-  font-weight: 100;
+  font-weight: 300;
   overflow-wrap: break-word;
 }
 .project-description{
-  color: lightgrey;
+  color: #000;
   text-align: justify;
   font-size: 1.1em;
   font-family: Roboto;
@@ -261,7 +262,8 @@ a:hover > .card{
   height: 200px;
 }
 .project-description > p > a{
-  color: cornsilk
+  color: #039be5;
+  font-weight: 500;
 }
 .project-description > p > a:hover{
   opacity: 0.7;
@@ -279,7 +281,7 @@ a:hover > .card{
   font-size: 0.9em;
   padding: 0.5em;
   font-weight: 400;
-  color: lightgoldenrodyellow;
+  color: #1C41B0;
   letter-spacing: 0.1em;
 }
 .authors{
