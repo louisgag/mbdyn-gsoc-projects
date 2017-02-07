@@ -1,3 +1,6 @@
+[MBDyn](http://www.mbdyn.org/)'s modal joint implements a *Component Mode Synthesis* (CMS) deformable body. The CMS element interacts with the multibody model only in specific nodes (interface nodes). The full dynamics of the body is condensed into the superposition of the responses of its modes of vibrations, that it outputs in the form of the time histories of its modal coordinates, together with the ridig body motion of a specific node used to define the floating reference frame, the modal node.
+
+The modal joint implementation can be improved in several different ways. For example:
 - break down the modal joint element into a set of elements/components:
     - modal database: FEM model; split const ( = instantiated once) and local (= duplicated) data;
     - place const data in shared database, local data in modal joint; avoid unnecessary copy of memory;
