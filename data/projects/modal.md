@@ -6,9 +6,9 @@ The modal joint implementation can be improved in several different ways. For ex
     - place `const` data in shared database, `local` data in modal joint; avoid unnecessary copy of memory;
     - use standard containers for structured data
     - for example,
-        - \+ `Mat3xN *pOffsetFEMNodes --> std::vector<Vec3>`
-        - \+ `Mat3xN *pOffsetMBNodes --> std::vector<Vec3>`
-        - \+ `Mat3xN *pRotMBNodes --> std::vector<Mat3x3>`
+        - `Mat3xN *pOffsetFEMNodes --> std::vector<Vec3>`
+        - `Mat3xN *pOffsetMBNodes --> std::vector<Vec3>`
+        - `Mat3xN *pRotMBNodes --> std::vector<Mat3x3>`
     - define a modal dynamics as a "deformable body" element (the structural dynamics part of the existing element)
     - define a modal clamp constraint element (as it is now, but separate from dynamics element)
     - add a total modal joint: this makes it possible to add arbitrary elements connected to the modal element
