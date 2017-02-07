@@ -231,12 +231,11 @@ a:hover > .card{
 }
 .profile{
   background-color: #BDBDBF;
-  color: #fff;
+  border-style: solid;
+  border-right: thick double #000;
 }
 .dashboard{
   background-color: #F8F8FF;
-  border-style: solid;
-  border-left: thick double #000;
 }
 .modal-content-bear{
   display: flex
@@ -265,7 +264,8 @@ a:hover > .card{
   height: 200px;
 }
 .project-description > p > a{
-  color: #BF0000;
+  color: #039be5;
+  font-weight: 500;
 }
 .project-description > p > a:hover{
   opacity: 0.7;
