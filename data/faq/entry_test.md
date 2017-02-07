@@ -7,7 +7,7 @@ The further you get through the entry test, the better your chances are of being
 If you do not complete step 1 or, when applicable, the alternative entry test of your project, your application will **not** be considered.
 
 
-**Once you complete a step, post to the mailing list to obtain feedback before proceed with the other steps.**
+**Once you complete a step, post to the mailing list to obtain feedback before you proceed with the other steps.**
 
 
 ####Step 1
