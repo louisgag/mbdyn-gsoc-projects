@@ -194,15 +194,15 @@ projects = [
 	},
 	{
 		"name" : "Improve FMI support",
-		"desc" : "Improve de FMI model exchange and co-simulation standard implemented by Devyesh Tandon during GSoC 201g.",
-		"difficulty" : "intermediate",
+		"desc" : "Improve de FMI model exchange and co-simulation standard implemented by Devyesh Tandon during GSoC 2016.",
+		"difficulty" : "advanced",
 		"mentors" : [
                         "Marco Morandini",
                         "Pierangelo Masarati"
 		],
 		"category" : "IPC / RT",
 		"tags" : ["c++", "scripting"],
-                "priority" : "medium",
+                "priority" : "low",
 		"markdown": "fmi.md",
 	},
 	{
