@@ -181,6 +181,7 @@ footer.page-footer .footer-copyright{
   color: #d1d1d1;
 }
 .card-title{
+  color: #BF0000;
   overflow-wrap: break-word !important;
   padding: 0.5em;
   text-align: center;
@@ -338,7 +339,7 @@ a:hover > .card{
   font-size: 12px;
   letter-spacing: 0.1em;
   text-align: left;
-  color: black;
+  color: #039be5;
   font-weight: 500;
   opacity: 1.0;
 }
