@@ -1,4 +1,5 @@
-Friction is not present in all joints from MBDyn, it would however be a nice feature to have it. Thus,
+It would be nice if every [MBDyn](http://www.mbdyn.org) joint could optionally add friction to its internal forces and moments.
 
- - improve friction and add it to all joints (suggestion: try a transition force from stick to slip that is higher than slip force)
+Thus, a possible to-do list for the project would be:
+ - improve the friction model and add it to all joints (suggestion: try a transition force from stick to slip that is higher than slip force)
  - implement contacts with non-flat surfaces
