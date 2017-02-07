@@ -231,7 +231,6 @@ a:hover > .card{
 }
 .profile{
   background-color: #BDBDBF;
-  border-style: solid;
   border-right: thick double #000;
 }
 .dashboard{
