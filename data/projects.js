@@ -26,7 +26,7 @@ projects = [
 		"markdown": "improve_vehicle.md"
 	},
 	{
-		"name" : "Improve the SWIFT tire model",
+		"name" : "Improve the tire model",
 		"desc" : "Improve the existing SWIFT-like tire functionalities of MBDyn's wheel4 module",
 		"difficulty" : "advanced",
 		"mentors" : [
