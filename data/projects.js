@@ -26,8 +26,8 @@ projects = [
 		"markdown": "improve_vehicle.md"
 	},
 	{
-		"name" : "Wheel4 (tire model) module improvements",
-		"desc" : "Improve the existing SWIFT tire functionalities of MBDyn",
+		"name" : "Improve the SWIFT tire model",
+		"desc" : "Improve the existing SWIFT tire functionalities of MBDyn's wheel4 module",
 		"difficulty" : "advanced",
 		"mentors" : [
 			"Louis Gagnon",
