@@ -214,7 +214,7 @@ projects = [
                         "Louis Gagnon",
                         "Giuseppe Quaranta"
 		],
-		"category" : "Modelling",
+		"category" : "Modeling Capabilities",
 		"tags" : ["c++", "aeronautics"],
                 "priority" : "high",
 		"markdown": "cycloidal.md",
