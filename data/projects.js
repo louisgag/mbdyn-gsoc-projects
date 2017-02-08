@@ -218,6 +218,19 @@ projects = [
 		"tags" : ["c++", "aeronautics"],
                 "priority" : "high",
 		"markdown": "cycloidal.md",
+	},
+	{
+		"name" : "Embedded optimization",
+		"desc" : "Implement optimization directly into MBDyn.",
+		"difficulty" : "intermediate",
+		"mentors" : [
+                        "Andrea Zanoni",
+                        "Louis Gagnon",
+		],
+		"category" : "TBD",
+		"tags" : ["c++", "mathematics"],
+                "priority" : "TBD",
+		"markdown": "optimization.md",
 	}
 
 ]
