@@ -221,15 +221,15 @@ projects = [
 	},
 	{
 		"name" : "Embedded optimization",
-		"desc" : "Implement optimization directly into MBDyn.",
+		"desc" : "Implement an integrated optimization module directly into MBDyn.",
 		"difficulty" : "intermediate",
 		"mentors" : [
                         "Andrea Zanoni",
                         "Louis Gagnon",
 		],
-		"category" : "TBD",
+		"category" : "Modeling Capabilities",
 		"tags" : ["c++", "mathematics"],
-                "priority" : "TBD",
+                "priority" : "medium",
 		"markdown": "optimization.md",
 	}
 
