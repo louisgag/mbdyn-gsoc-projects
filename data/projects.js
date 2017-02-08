@@ -27,7 +27,7 @@ projects = [
 	},
 	{
 		"name" : "Improve the SWIFT tire model",
-		"desc" : "Improve the existing SWIFT tire functionalities of MBDyn's wheel4 module",
+		"desc" : "Improve the existing SWIFT-like tire functionalities of MBDyn's wheel4 module",
 		"difficulty" : "advanced",
 		"mentors" : [
 			"Louis Gagnon",
