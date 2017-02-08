@@ -181,7 +181,7 @@ footer.page-footer .footer-copyright{
   color: #d1d1d1;
 }
 .card-title{
-  color: #BF0000;
+  color: #AF0000;
   overflow-wrap: break-word !important;
   padding: 0.5em;
   text-align: center;
@@ -215,7 +215,7 @@ footer.page-footer .footer-copyright{
 }
 .name-bear{
   font-size: 22px !important;
-  font-weight: 800 !important;
+  font-weight: 500 !important;
 }
 .markdown  p {
   display: block !important;
