@@ -121,7 +121,8 @@ projects = [
 		"desc" : "Implement a series of updates to the current modal joint",
 		"difficulty" : "intermediate",
 		"mentors" : [
-			"Andrea Zanoni",
+			"Giuseppe Quaranta",
+                        "Andrea Zanoni",
                         "Louis Gagnon"
 		],
 		"category" : "Modeling Capabilities",
