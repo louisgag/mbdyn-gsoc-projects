@@ -8,7 +8,7 @@ projects = [
                         "Pierangelo Masarati"
 		],
 		"category" : "Miscellaneous",
-		"tags" : ["c++"],
+		"tags" : ["C++"],
                 "priority" : "high",
 		"markdown": "convergeance.md",
 	},
@@ -34,7 +34,7 @@ projects = [
 			"Andrea Zanoni"
 		],
 		"category" : "IPC / RT",
-		"tags" : ["flight simulator", "c++", "GUI"],
+		"tags" : ["flight simulator", "C++", "GUI"],
                 "priority" : "high",
 		"markdown": "flight_dyn.md"
 	},
@@ -60,7 +60,7 @@ projects = [
                         "Giuseppe Quaranta"
 		],
 		"category" : "Modeling Capabilities",
-		"tags" : ["c++", "aeronautics"],
+		"tags" : ["C++", "aeronautics"],
                 "priority" : "high",
 		"markdown": "cycloidal.md",
 	},
@@ -123,7 +123,7 @@ projects = [
                         "Marco Morandini"
 		],
 		"category" : "Miscellaneous",
-		"tags" : ["c++"],
+		"tags" : ["C++"],
                 "priority" : "medium",
 		"markdown": "cascaded.md",
 	},
@@ -136,7 +136,7 @@ projects = [
                         "Louis Gagnon",
 		],
 		"category" : "Modeling Capabilities",
-		"tags" : ["c++", "mathematics"],
+		"tags" : ["C++", "mathematics"],
                 "priority" : "medium",
 		"markdown": "optimization.md",
 	},
@@ -149,7 +149,7 @@ projects = [
                         "Pierangelo Masarati"
 		],
 		"category" : "IPC / RT",
-		"tags" : ["c++", "scripting"],
+		"tags" : ["C++", "scripting"],
                 "priority" : "low",
 		"markdown": "fmi.md",
 	},
@@ -162,7 +162,7 @@ projects = [
 			"Andrea Zanoni"
 		],
 		"category" : "Modeling Capabilities",
-		"tags" : ["c++", "modules", "MBDyn scripting", "vehicle mechanics"],
+		"tags" : ["C++", "modules", "MBDyn scripting", "vehicle mechanics"],
                 "priority" : "low",
 		"markdown": "improve_vehicle.md"
 	},
@@ -175,7 +175,7 @@ projects = [
 			"Andrea Zanoni"
 		],
 		"category" : "Modeling Capabilities",
-		"tags" : ["tires", "c++", "modules", "vehicle mechanics"],
+		"tags" : ["tires", "C++", "modules", "vehicle mechanics"],
                 "priority" : "low",
 		"markdown": "improve_wheel4.md"
 	},
@@ -188,7 +188,7 @@ projects = [
 			"Giuseppe Quaranta"
 		],
 		"category" : "IPC / RT",
-		"tags" : ["c++", "Matlab", "Octave", "Scilab", "OpenFOAM", "Python"],
+		"tags" : ["C++", "Matlab", "Octave", "Scilab", "OpenFOAM", "Python"],
                 "priority" : "low",
 		"markdown": "coupling.md"
 	},
@@ -200,7 +200,7 @@ projects = [
 			"Unassigned"
 		],
 		"category" : "Miscellaneous",
-		"tags" : ["c++"],
+		"tags" : ["C++"],
                 "priority" : "low",
 		"markdown": "autodiff.md",
 	},
