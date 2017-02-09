@@ -1,5 +1,18 @@
 projects = [
 	{
+		"name" : "Convergence criteria",
+		"desc" : "Improve the existing convergence criteria",
+		"difficulty" : "intermediate",
+		"mentors" : [
+			"Marco Morandini",
+                        "Pierangelo Masarati"
+		],
+		"category" : "Miscellaneous",
+		"tags" : ["c++"],
+                "priority" : "high",
+		"markdown": "convergeance.md",
+	},
+	{
 		"name" : "Improve Blendyn",
 		"desc" : "Upgrade the standalone post-processing graphical interface Blendyn",
 		"difficulty" : "beginner",
@@ -11,32 +24,6 @@ projects = [
 		"tags" : ["Python", "Blender"],
                 "priority" : "high",
 		"markdown": "improve_blendyn.md"
-	},
-	{
-		"name" : "Ground vehicle model development",
-		"desc" : "Improve the existing ground vehile functionalities of MBDyn",
-		"difficulty" : "intermediate",
-		"mentors" : [
-			"Louis Gagnon",
-			"Andrea Zanoni"
-		],
-		"category" : "Modeling Capabilities",
-		"tags" : ["c++", "modules", "MBDyn scripting", "vehicle mechanics"],
-                "priority" : "low",
-		"markdown": "improve_vehicle.md"
-	},
-	{
-		"name" : "Improve the tire model",
-		"desc" : "Improve the existing SWIFT-like tire functionalities of MBDyn's wheel4 module",
-		"difficulty" : "advanced",
-		"mentors" : [
-			"Louis Gagnon",
-			"Andrea Zanoni"
-		],
-		"category" : "Modeling Capabilities",
-		"tags" : ["tires", "c++", "modules", "vehicle mechanics"],
-                "priority" : "low",
-		"markdown": "improve_wheel4.md"
 	},
 	{
 		"name" : "Flight dynamics module",
@@ -52,42 +39,30 @@ projects = [
 		"markdown": "flight_dyn.md"
 	},
 	{
-		"name" : "Improve coupling with other software",
-		"desc" : "Implement or perfect the existing hooks to Matlab, Octave, Simulink, Scilab, and OpenFOAM",
-		"difficulty" : "intermediate/advanced",
-		"mentors" : [
-			"Pierangelo Masarati",
-			"Giuseppe Quaranta"
-		],
-		"category" : "IPC / RT",
-		"tags" : ["c++", "Matlab", "Octave", "Scilab", "OpenFOAM", "Python"],
-                "priority" : "low",
-		"markdown": "coupling.md"
-	},
-	{
-		"name" : "Automatic differentiation",
-		"desc" : "Improve the current automatic differentiation algorithms of MBDyn",
-		"difficulty" : "beginner/intermediate",
-		"mentors" : [
-			"Unassigned"
-		],
-		"category" : "Miscellaneous",
-		"tags" : ["c++"],
-                "priority" : "low",
-		"markdown": "autodiff.md",
-	},
-	{
-		"name" : "Convergence criteria",
-		"desc" : "Improve the existing convergence criteria",
+		"name" : "Libraries update",
+		"desc" : "The internal libraries used by MBDyn have a somewhat complicated configuration and could be simplified.",
 		"difficulty" : "intermediate",
 		"mentors" : [
-			"Marco Morandini",
-                        "Pierangelo Masarati"
+			"Pierangelo Masarati",
+                        "Marco Morandini",
 		],
 		"category" : "Miscellaneous",
-		"tags" : ["c++"],
+		"tags" : ["C++"],
                 "priority" : "high",
-		"markdown": "convergeance.md",
+		"markdown": "librairies.md",
+	},
+	{
+		"name" : "Improve cycloidal rotor module",
+		"desc" : "Keep improving the inflow modelling of the cycloidal rotors that was developped by Kuldeep Singh for GSoC 2016.",
+		"difficulty" : "intermediate",
+		"mentors" : [
+                        "Louis Gagnon",
+                        "Giuseppe Quaranta"
+		],
+		"category" : "Modeling Capabilities",
+		"tags" : ["c++", "aeronautics"],
+                "priority" : "high",
+		"markdown": "cycloidal.md",
 	},
 	{
 		"name" : "Flexible element graphical interface",
@@ -103,34 +78,6 @@ projects = [
 		"markdown": "flexGUI.md",
 	},
 	{
-		"name" : "Improve the parser",
-		"desc" : "Add additional preprocessing functionalities and driver options",
-		"difficulty" : "intermediate",
-		"mentors" : [
-			"Pierangelo Masarati",
-                        "Marco Morandini",
-                        "Louis Gagnon"
-		],
-		"category" : "User Interface",
-		"tags" : ["C++", "MBDyn scripting"],
-                "priority" : "low",
-		"markdown": "preproc.md",
-	},
-	{
-		"name" : "Revamp modal joint",
-		"desc" : "Implement a series of updates to the current modal joint",
-		"difficulty" : "intermediate",
-		"mentors" : [
-			"Giuseppe Quaranta",
-                        "Andrea Zanoni",
-                        "Louis Gagnon"
-		],
-		"category" : "Modeling Capabilities",
-		"tags" : ["C++", "linear algebra", "physics"],
-                "priority" : "low",
-		"markdown": "modal.md",
-	},
-	{
 		"name" : "Friction in joints",
 		"desc" : "Implement friction in joints that do not currently have it",
 		"difficulty" : "intermediate",
@@ -141,19 +88,6 @@ projects = [
 		"tags" : ["C++", "mechanical friction"],
                 "priority" : "medium",
 		"markdown": "friction.md",
-	},
-	{
-		"name" : "Libraries update",
-		"desc" : "The internal libraries used by MBDyn have a somewhat complicated configuration and could be simplified.",
-		"difficulty" : "intermediate",
-		"mentors" : [
-			"Pierangelo Masarati",
-                        "Marco Morandini",
-		],
-		"category" : "Miscellaneous",
-		"tags" : ["C++"],
-                "priority" : "high",
-		"markdown": "librairies.md",
 	},
 	{
 		"name" : "Package update",
@@ -194,6 +128,19 @@ projects = [
 		"markdown": "cascaded.md",
 	},
 	{
+		"name" : "Embedded optimization",
+		"desc" : "Implement an integrated optimization module directly into MBDyn.",
+		"difficulty" : "intermediate",
+		"mentors" : [
+                        "Andrea Zanoni",
+                        "Louis Gagnon",
+		],
+		"category" : "Modeling Capabilities",
+		"tags" : ["c++", "mathematics"],
+                "priority" : "medium",
+		"markdown": "optimization.md",
+	},
+	{
 		"name" : "Improve FMI support",
 		"desc" : "Improve de FMI model exchange and co-simulation standard implemented by Devyesh Tandon during GSoC 2016.",
 		"difficulty" : "advanced",
@@ -207,30 +154,83 @@ projects = [
 		"markdown": "fmi.md",
 	},
 	{
-		"name" : "Improve cycloidal rotor module",
-		"desc" : "Keep improving the inflow modelling of the cycloidal rotors that was developped by Kuldeep Singh for GSoC 2016.",
+		"name" : "Ground vehicle model development",
+		"desc" : "Improve the existing ground vehile functionalities of MBDyn",
 		"difficulty" : "intermediate",
 		"mentors" : [
-                        "Louis Gagnon",
-                        "Giuseppe Quaranta"
+			"Louis Gagnon",
+			"Andrea Zanoni"
 		],
 		"category" : "Modeling Capabilities",
-		"tags" : ["c++", "aeronautics"],
-                "priority" : "high",
-		"markdown": "cycloidal.md",
+		"tags" : ["c++", "modules", "MBDyn scripting", "vehicle mechanics"],
+                "priority" : "low",
+		"markdown": "improve_vehicle.md"
 	},
 	{
-		"name" : "Embedded optimization",
-		"desc" : "Implement an integrated optimization module directly into MBDyn.",
-		"difficulty" : "intermediate",
+		"name" : "Improve the tire model",
+		"desc" : "Improve the existing SWIFT-like tire functionalities of MBDyn's wheel4 module",
+		"difficulty" : "advanced",
 		"mentors" : [
-                        "Andrea Zanoni",
-                        "Louis Gagnon",
+			"Louis Gagnon",
+			"Andrea Zanoni"
 		],
 		"category" : "Modeling Capabilities",
-		"tags" : ["c++", "mathematics"],
-                "priority" : "medium",
-		"markdown": "optimization.md",
-	}
+		"tags" : ["tires", "c++", "modules", "vehicle mechanics"],
+                "priority" : "low",
+		"markdown": "improve_wheel4.md"
+	},
+	{
+		"name" : "Improve coupling with other software",
+		"desc" : "Implement or perfect the existing hooks to Matlab, Octave, Simulink, Scilab, and OpenFOAM",
+		"difficulty" : "intermediate/advanced",
+		"mentors" : [
+			"Pierangelo Masarati",
+			"Giuseppe Quaranta"
+		],
+		"category" : "IPC / RT",
+		"tags" : ["c++", "Matlab", "Octave", "Scilab", "OpenFOAM", "Python"],
+                "priority" : "low",
+		"markdown": "coupling.md"
+	},
+	{
+		"name" : "Automatic differentiation",
+		"desc" : "Improve the current automatic differentiation algorithms of MBDyn",
+		"difficulty" : "beginner/intermediate",
+		"mentors" : [
+			"Unassigned"
+		],
+		"category" : "Miscellaneous",
+		"tags" : ["c++"],
+                "priority" : "low",
+		"markdown": "autodiff.md",
+	},
+	{
+		"name" : "Improve the parser",
+		"desc" : "Add additional preprocessing functionalities and driver options",
+		"difficulty" : "intermediate",
+		"mentors" : [
+			"Pierangelo Masarati",
+                        "Marco Morandini",
+                        "Louis Gagnon"
+		],
+		"category" : "User Interface",
+		"tags" : ["C++", "MBDyn scripting"],
+                "priority" : "low",
+		"markdown": "preproc.md",
+	},
+	{
+		"name" : "Revamp modal joint",
+		"desc" : "Implement a series of updates to the current modal joint",
+		"difficulty" : "intermediate",
+		"mentors" : [
+			"Giuseppe Quaranta",
+                        "Andrea Zanoni",
+                        "Louis Gagnon"
+		],
+		"category" : "Modeling Capabilities",
+		"tags" : ["C++", "linear algebra", "physics"],
+                "priority" : "low",
+		"markdown": "modal.md",
+	},
 
 ]
