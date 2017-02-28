@@ -16,5 +16,5 @@ It is simple to use and generates 3D animations that represent the exact model m
 - automatically adjust timesteps when the results file is changed
 
 ENTRY TEST:
-  - complete Step 1 of the standard MBDyn [entry test](https://louisgag.github.io/mbdyn-gsoc-projects/#/entry_test)
-  - use [Blendyn](https://github.com/zanoni-mbdyn/blendyn/wiki) to visualize the results of one of your simulations and use the OpenGL Blender renderer to produce a (compressed) .avi video file
+ - complete Step 1 of the standard MBDyn [entry test](https://louisgag.github.io/mbdyn-gsoc-projects/#/entry_test)
+ - use [Blendyn](https://github.com/zanoni-mbdyn/blendyn/wiki) to visualize the results of one of your simulations and use the OpenGL Blender renderer to produce a (compressed) .avi video file
