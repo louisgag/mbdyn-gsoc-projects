@@ -1,6 +1,6 @@
 MBDyn's modal joint implements a *Component Mode Synthesis* (CMS) deformable body. The CMS element interacts with the multibody model only in specific nodes (interface nodes). The full dynamics of the body is condensed into the superposition of the responses of its modes of vibrations, that it outputs in the form of the time histories of its modal coordinates, together with the ridig body motion of a specific node used to define the floating reference frame, the modal node. 
 
-Currently, the post processing (i.e. the visualization of the superposition of the rigid and the deformable motion of the body) for the element is not implemented in any of the existing post-processing tools. The project aims at filling this gap, by adding support for the flexible *superelement* to [Blendyn](https://github.com/zanoni-mbdyn/blendyn/wiki)
+Currently, the post processing (i.e. the visualization of the superposition of the rigid and the deformable motion of the body) for the element is not implemented in any of the existing post-processing tools. The project aims at filling this gap, by adding support for the flexible *superelement* to [Blendyn](https://github.com/zanoni-mbdyn/blendyn)
 
 **ENTRY TEST:**
 
