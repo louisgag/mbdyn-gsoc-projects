@@ -73,7 +73,7 @@ projects = [
                         "Marco Morandini",
 		],
 		"category" : "User Interface",
-		"tags" : ["Python"],
+		"tags" : ["Python", "Blender"],
                 "priority" : "medium",
 		"markdown": "flexGUI.md",
 	},
