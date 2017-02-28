@@ -1,6 +1,6 @@
 MBDyn is a tool which comes without any default graphical user interface. There exists a few standalone post-processing tools, based on EasyAnim, OpenDx and Blender, respectively. 
 
-However, [Blendyn](https://github.com/zanoni-mbdyn/blendyn/wiki), based on Blender, is the most up-to-date. See some example [videos](https://youtu.be/x5n0OgskIMc?list=PLTtFbiep140gc-f-x14ltv0N7YZNzvioF) of its output and the [tutorials](https://github.com/zanoni-mbdyn/blendyn/wiki/Tutorials) to understand better what Blendyn is about. 
+However, [Blendyn](https://github.com/zanoni-mbdyn/blendyn), based on Blender, is the most up-to-date. See some example [videos](https://youtu.be/x5n0OgskIMc?list=PLTtFbiep140gc-f-x14ltv0N7YZNzvioF) of its output and the [tutorials](https://github.com/zanoni-mbdyn/blendyn/wiki/Tutorials) to understand better what Blendyn is about. 
 
 It is simple to use and generates 3D animations that represent the exact model movement and joints. Some additional features can nonetheless be added. For example:
 
@@ -19,4 +19,4 @@ ENTRY TEST:
 
 
 - complete Step 1 of the standard MBDyn [entry test](https://louisgag.github.io/mbdyn-gsoc-projects/#/entry_test)
-- use [Blendyn](https://github.com/zanoni-mbdyn/blendyn/wiki) to visualize the results of one of your simulations and use the OpenGL Blender renderer to produce a (compressed) .avi video file
+- use Blendyn to visualize the results of one of your simulations and use the OpenGL Blender renderer to produce a (compressed) .avi video file
