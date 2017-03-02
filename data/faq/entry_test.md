@@ -22,6 +22,7 @@ If you do not complete step 1 or, when applicable, the alternative entry test of
 ####Step 2
 
 - implement a modification to the MBDyn code concerned by the test case you ran
+ - the modification must be made to the compiled code, thus probably C++
 - re-run your test case with the modified code
 - describe the effect of your modification on the test case's results
 - provide the patch file for the modification you performed using the method specified in [MBDyn's FAQ](https://www.mbdyn.org/?Documentation___Official_Documentation___FAQ#HOW_DO_I_SUBMIT_A_PATCH_TO_MBDYN)
