@@ -12,6 +12,7 @@ projects = [
                 "priority" : "high",
 		"markdown": "convergeance.md",
 	},
+	/*
 	{
 		"name" : "Improve Blendyn",
 		"desc" : "Upgrade the standalone post-processing graphical interface Blendyn",
@@ -38,6 +39,7 @@ projects = [
                 "priority" : "high",
 		"markdown": "flight_dyn.md"
 	},
+	*/
 	{
 		"name" : "Libraries update",
 		"desc" : "The internal libraries used by MBDyn have a somewhat complicated configuration and could be simplified.",

@@ -104,6 +104,18 @@ span.caret {
 .example-select{
   padding:2em;
 }
+.header-text{
+  text-align: left;
+  color: lightslategrey;
+  font-family: Roboto;
+  font-size: 1.0em;
+  padding: 1em;
+}
+.header-text-welcome{
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 500; 
+}
 .footer-text{
   text-align: center;
   color: lightslategrey;
