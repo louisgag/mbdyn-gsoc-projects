@@ -14,10 +14,12 @@ This project is open-ended, but some avenues for thought are:
 
 
 Requirements:
+
 - use MBDyn for the structural part
 - use OpenFOAM for the fluid part
 - provide one or more test cases that exemplify all of the features
 - provide detailed installation instructions for anyone starting from the official releases of MBDyn and OpenFOAM
 
 Documentation:
+
 - if this project interests you, contact the MBDyn mailing list or the mentor to have the proper initial documentation
