@@ -54,6 +54,20 @@ projects = [
 		"markdown": "librairies.md",
 	},
 	{
+		"name" : "Couple MBDyn with OpenFOAM",
+		"desc" : "Improve the flow domain-induced forces measured by MBDyn and the mesh movement and/or deformation within OpenFOAM
+		by coupling the two software together.",
+		"difficulty" : "intermediate-advanced",
+		"mentors" : [
+                        "Louis Gagnon",
+                        "TBD"
+		],
+		"category" : "Modeling Capabilities",
+		"tags" : ["C++", "aerodynamics", "fluid-structure interaction"],
+                "priority" : "high",
+		"markdown": "openfoamfsi.md",
+	},
+	{
 		"name" : "Improve cycloidal rotor module",
 		"desc" : "Keep improving the inflow modelling of the cycloidal rotors that was developped by Kuldeep Singh for GSoC 2016.",
 		"difficulty" : "intermediate",
@@ -63,7 +77,7 @@ projects = [
 		],
 		"category" : "Modeling Capabilities",
 		"tags" : ["C++", "aeronautics"],
-                "priority" : "high",
+                "priority" : "medium",
 		"markdown": "cycloidal.md",
 	},
 	{
