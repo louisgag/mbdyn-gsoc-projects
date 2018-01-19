@@ -55,8 +55,7 @@ projects = [
 	},
 	{
 		"name" : "Couple MBDyn with OpenFOAM",
-		"desc" : "Improve the flow domain-induced forces measured by MBDyn and the mesh movement and/or deformation within OpenFOAM
-		by coupling the two software together.",
+		"desc" : "Improve the flow domain-induced forces measured by MBDyn and the mesh movement and/or deformation within OpenFOAM by coupling the two software together.",
 		"difficulty" : "intermediate-advanced",
 		"mentors" : [
                         "Louis Gagnon",
