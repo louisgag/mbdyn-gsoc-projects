@@ -62,7 +62,7 @@ projects = [
                         "TBD"
 		],
 		"category" : "Modeling Capabilities",
-		"tags" : ["C++", "aerodynamics", "fluid-structure interaction"],
+		"tags" : ["C++", "aerodynamics", "fluid-structure interaction", "OpenFOAM"],
                 "priority" : "high",
 		"markdown": "openfoamfsi.md",
 	},
@@ -196,14 +196,14 @@ projects = [
 	},
 	{
 		"name" : "Improve coupling with other software",
-		"desc" : "Implement or perfect the existing hooks to Matlab, Octave, Simulink, Scilab, and OpenFOAM",
+		"desc" : "Implement or perfect the existing hooks to Matlab, Octave, Simulink, Scilab, or SU2",
 		"difficulty" : "intermediate/advanced",
 		"mentors" : [
 			"Pierangelo Masarati",
 			"Giuseppe Quaranta"
 		],
 		"category" : "IPC / RT",
-		"tags" : ["C++", "Matlab", "Octave", "Scilab", "OpenFOAM", "Python"],
+		"tags" : ["C++", "Matlab", "Octave", "Scilab", "SU2", "Python"],
                 "priority" : "low",
 		"markdown": "coupling.md"
 	},
