@@ -5,6 +5,9 @@ Over the years, various interfaces to popular modeling software have been develo
 - add/improve Scilab hooks
 - add/improve MATLAB/Octave/Scilab and Simulink/Scicos co-simulation interface.
 
-Large project: turn MBDyn into a module for Simulink/Scicos (see contrib/SimulinkInterface/ ; need an implicit extension)
+Large projects
+
+- add support for coupling with [SU2](https://su2code.github.io/) CFD software
+- turn MBDyn into a module for Simulink/Scicos (see contrib/SimulinkInterface/ ; need an implicit extension).
 
 - add package-wide support for WinSocks in communication entities, including SimulinkInterface and ScicosInterface (using MSYS/MinGW)
