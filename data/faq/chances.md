@@ -9,4 +9,4 @@ Why? Because:
 
 - most students have a hard time going beyond step 2
 
-- Developing for MBDyn requires very specific skills (among them, for most of the projects, C++ programming and an understanding of general concepts of multibody dynamics) that are difficult to find in students at your level
+- developing for MBDyn requires very specific skills (among them, for most of the projects, C++ programming and an understanding of general concepts of multibody dynamics) that are difficult to find in students at your level
