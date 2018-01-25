@@ -9,4 +9,4 @@ Why? Because:
 
 - most students have a hard time going beyond step 2
 
-- MBDyn is a software that, for most of the projects, requires skills from both C++ programming and mechanical engineering
+- Developing for MBDyn requires very specific skills (among them, for most of the projects, C++ programming and an understanding of general concepts of multibody dynamics) that are difficult to find in students at your level
