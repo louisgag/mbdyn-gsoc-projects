@@ -91,6 +91,21 @@ projects = [
                 "priority" : "medium",
 		"markdown": "cycloidal.md",
 	},
+	/*
+	{
+		"name": "Tail rotor models",
+		"desc": "Implement models of tail rotor dynamics, especially for real-time applications",
+		"difficulty": "intermediate",
+		"mentors": [
+			"Andrea Zanoni",
+			"Vincenzo Muscarello"
+		],
+		"category": "Modeling Capabilities",
+		"tags": ["C++", "aeronautics", "real-time"],
+		"priority": "medium",
+		"markdown": "tail_rotor.md",
+	},
+	*/
 	{
 		"name" : "Flexible element graphical interface",
 		"desc" : "Add flexible superelement (\"modal\" joint) support to Blendyn",
