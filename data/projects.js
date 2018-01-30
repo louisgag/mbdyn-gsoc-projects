@@ -12,10 +12,9 @@ projects = [
                 "priority" : "high",
 		"markdown": "convergeance.md",
 	},
-	/*
 	{
-		"name" : "Improve Blendyn",
-		"desc" : "Upgrade the standalone post-processing graphical interface Blendyn",
+		"name" : "Blendyn development",
+		"desc" : "Continue the development of the standalone post-processing graphical interface Blendyn",
 		"difficulty" : "beginner",
 		"mentors" : [
 			"Andrea Zanoni",
@@ -26,6 +25,7 @@ projects = [
                 "priority" : "high",
 		"markdown": "improve_blendyn.md"
 	},
+	/*
 	{
 		"name" : "Flight dynamics module",
 		"desc" : "Develop a flight simulator that uses MBDyn to create a realistic flight experience",
