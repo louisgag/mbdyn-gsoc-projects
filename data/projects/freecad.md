@@ -16,4 +16,9 @@ offers a fully-fledged [Python API](https://www.freecadweb.org/wiki/FreeCAD_Scri
 Freecad supports CAD assembly operations, it could be a natural platform for a graphical pre- and post-processing tool for MBDyn.
 
 The scope of this project is to begin **from scratch** the development of such a tool. Everything is starting anew,
-so all the software design choiced will be made together!
+so we will make all the software design choices together!
+
+**ENTRY TEST:**
+
+- complete Step 1 of the standard MBDyn [entry test](https://louisgag.github.io/mbdyn-gsoc-projects/#/entry_test)
+- create a simple FreeCAD model using the Python API
