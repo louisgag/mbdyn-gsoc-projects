@@ -129,6 +129,7 @@ projects = [
                 "priority" : "medium",
 		"markdown": "configuration.md",
 	},
+	/*
 	{
 		"name" : "Cascaded analysis",
 		"desc" : "Add support for cascaded models and solutions.",
@@ -142,6 +143,7 @@ projects = [
                 "priority" : "medium",
 		"markdown": "cascaded.md",
 	},
+	*/
 	{
 		"name" : "Embedded optimization",
 		"desc" : "Implement an integrated optimization module directly into MBDyn.",
