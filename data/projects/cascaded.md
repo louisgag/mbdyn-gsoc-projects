@@ -1,5 +1,1 @@
-The configuration of MBDyn can benefit from some improvements which would make it easier to use by a greater number of users. The tasks involved are:
-
-- test for '_' appended to F77 symbols (recent autoconf does that), (or better: remove all F77 code)
-- audit all the suite for not-so-GNU systems
-- add check for make
+Add support for cascaded models and solutions with rules for each solution to inherit the initial configuration from the final solution of another solution; the typical use case is a static solution that prepares the initial configuration for a subsequent initial value problem.
