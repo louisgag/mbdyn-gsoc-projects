@@ -25,6 +25,19 @@ projects = [
                 "priority" : "high",
 		"markdown": "improve_blendyn.md"
 	},
+	{
+		"name" : "FreeCAD gui",
+		"desc" : "Begin the development of a standalone graphical pre- and post-processor based on FreeCAD",
+		"difficulty" : "beginner/medium",
+		"mentors" : [
+			"Andrea Zanoni",
+			"Louis Gagnon"
+		],
+		"category" : "User Interface",
+		"tags" : ["Python", "FreeCAD"],
+                "priority" : "high",
+		"markdown": "freecad.md"
+	},
 	/*
 	{
 		"name" : "Flight dynamics module",
