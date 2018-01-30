@@ -15,4 +15,4 @@ Blendyn has got a great push in the development in the 2017 edition of the GSoC 
 **ENTRY TEST:**
 
 - complete Step 1 of the standard MBDyn [entry test](https://louisgag.github.io/mbdyn-gsoc-projects/#/entry_test)
-- use Blendyn to visualize the results of one of your simulations and use the OpenGL Blender renderer to produce a (compressed) .avi video file
+- use the Blender Python API (or console) to create a simple Blender model
