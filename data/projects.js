@@ -30,8 +30,7 @@ projects = [
 		"desc" : "Begin the development of a standalone graphical pre- and post-processor based on FreeCAD",
 		"difficulty" : "beginner/medium",
 		"mentors" : [
-			"Andrea Zanoni",
-			"Louis Gagnon"
+			"Andrea Zanoni"
 		],
 		"category" : "User Interface",
 		"tags" : ["Python", "FreeCAD"],
